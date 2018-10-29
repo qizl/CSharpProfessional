@@ -57,10 +57,11 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Part1Test.cs" />
-    <Compile Include="Part1_9Tests.cs" />
+    <Compile Include="CSharp6\Chapter5\DisposableSample.cs" />
+    <Compile Include="CSharp5\Part1Test.cs" />
+    <Compile Include="CSharp5\Part1_9Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReadBookMarks.cs" />
+    <Compile Include="CSharp5\ReadBookMarks.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CSharpProfessional\CSharpProfessional.csproj">
@@ -68,6 +69,7 @@
       <Name>CSharpProfessional</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
