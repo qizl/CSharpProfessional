@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using static System.Console;
+using static System.Diagnostics.Debug;
 
 namespace CSharpProfessional.Tests.CSharp10.Chapter5
 {
