@@ -85,7 +85,6 @@ namespace CSharpProfessional.Tests.CSharp6.Charpter23
 
         private void CalculationInTask(int jobNumber, int partitionSize, Barrier barrier, IList<string>[] coll, int loops, int[][] results)
         {
-
             LogBarrierInformation("CalculationInTask started", barrier);
 
             for (int i = 0; i < loops; i++)
@@ -102,8 +101,7 @@ namespace CSharpProfessional.Tests.CSharp6.Charpter23
                     results[i][c - 97]++;
                 }
 
-                WriteLine($"Calculation completed from task {Task.CurrentId} in loop {i}. " +
-                    $"{results[i][0]} times a, {results[i][25]} times z");
+                WriteLine($"Calculation completed from task {Task.CurrentId} in loop {i}. {results[i][0]} times a, {results[i][25]} times z");
 
                 LogBarrierInformation("sending signal and wait for all", barrier);
                 barrier.SignalAndWait();
