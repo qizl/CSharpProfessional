@@ -63,6 +63,7 @@
     <Compile Include="CSharp5\Part1_9Tests.cs" />
     <Compile Include="CSharp6\Charpter23\SampleTask.cs" />
     <Compile Include="CSharp6\Charpter23\SampleTaskTests.cs" />
+    <Compile Include="CSharp6\Charpter23\SynchronizatonSamples.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CSharp5\ReadBookMarks.cs" />
   </ItemGroup>

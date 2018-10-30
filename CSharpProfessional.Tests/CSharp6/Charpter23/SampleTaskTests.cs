@@ -10,10 +10,13 @@ namespace CSharpProfessional.Tests.CSharp6.Charpter23
         public void RaceConditions()
         {
             var state = new StateObject();
+            var task = null as Task;
             for (int i = 0; i < 2; i++)
             {
-                Task.Run(() => new SampleTask().RaceCondition(state));
+                task = Task.Run(() => new SampleTask().RaceCondition(state));
             }
+
+            Task.WaitAll(task);
         }
 
         [TestMethod]

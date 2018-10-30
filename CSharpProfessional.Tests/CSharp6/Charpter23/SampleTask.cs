@@ -47,7 +47,6 @@ namespace CSharpProfessional.Tests.CSharp6.Charpter23
         private StateObject _s1;
         private StateObject _s2;
 
-
         public void Deadlock1()
         {
             int i = 0;
