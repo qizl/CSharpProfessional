@@ -28,6 +28,7 @@
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -61,6 +62,10 @@
     <Compile Include="CSharp6\Chapter5\DisposableSample.cs" />
     <Compile Include="CSharp5\Part1Test.cs" />
     <Compile Include="CSharp5\Part1_9Tests.cs" />
+    <Compile Include="CSharp6\Charpter23\AsyncDelegate.cs" />
+    <Compile Include="CSharp6\Charpter23\EventSample.cs" />
+    <Compile Include="CSharp6\Charpter23\SemaphoreSample.cs" />
+    <Compile Include="CSharp6\Charpter23\MutextTests.cs" />
     <Compile Include="CSharp6\Charpter23\SampleTask.cs" />
     <Compile Include="CSharp6\Charpter23\SampleTaskTests.cs" />
     <Compile Include="CSharp6\Charpter23\SynchronizatonSamples.cs" />
