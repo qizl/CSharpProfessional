@@ -66,7 +66,6 @@ namespace CSharpProfessional.Tests.CSharp6.Charpter23
             WriteLine("at the end");
         }
 
-
         public IEnumerable<string> FillData(int size)
         {
             var r = new Random();
@@ -111,7 +110,6 @@ namespace CSharpProfessional.Tests.CSharp6.Charpter23
             barrier.RemoveParticipant();
             LogBarrierInformation("finished task, removed participant", barrier);
         }
-
 
         private void LogBarrierInformation(string info, Barrier barrier)
         {
