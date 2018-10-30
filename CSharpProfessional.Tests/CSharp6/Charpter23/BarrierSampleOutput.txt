@@ -1,0 +1,193 @@
+﻿Task : initial participants in barrier. 1 current and 1 remaining participants, phase 0
+Main - starting task job 0
+Main - starting task job 1
+Task : main task, start signaling and wait. 3 current and 3 remaining participants, phase 0
+Task 1: CalculationInTask started. 3 current and 3 remaining participants, phase 0
+Task 2: CalculationInTask started. 3 current and 3 remaining participants, phase 0
+Task 1 in loop 0: partition from 0 to 1000000
+Task 2 in loop 0: partition from 1000000 to 2000000
+Calculation completed from task 2 in loop 0. 38385 times a, 38557 times z
+Task 2: sending signal and wait for all. 3 current and 2 remaining participants, phase 0
+Calculation completed from task 1 in loop 0. 38526 times a, 38539 times z
+Task 1: sending signal and wait for all. 3 current and 1 remaining participants, phase 0
+Task 1: waiting completed. 3 current and 3 remaining participants, phase 1
+Task 2: waiting completed. 3 current and 3 remaining participants, phase 1
+Task 1 in loop 1: partition from 0 to 1000000
+Task : main task waiting completed. 3 current and 3 remaining participants, phase 1
+Task 2 in loop 1: partition from 1000000 to 2000000
+a, count: 76911
+b, count: 77088
+c, count: 76786
+d, count: 76724
+e, count: 77019
+f, count: 77090
+g, count: 77127
+h, count: 76863
+i, count: 76927
+j, count: 76971
+k, count: 76240
+l, count: 77117
+m, count: 76739
+n, count: 76631
+o, count: 76389
+p, count: 77061
+q, count: 76714
+r, count: 77134
+s, count: 77173
+t, count: 77075
+u, count: 76888
+v, count: 76749
+w, count: 77226
+x, count: 76836
+y, count: 77426
+z, count: 77096
+Task : main task finished loop 0, sum: 2000000. 3 current and 3 remaining participants, phase 1
+Task : main task, start signaling and wait. 3 current and 3 remaining participants, phase 1
+Calculation completed from task 2 in loop 1. 38216 times a, 38575 times z
+Task 2: sending signal and wait for all. 3 current and 2 remaining participants, phase 1
+Calculation completed from task 1 in loop 1. 38529 times a, 38716 times z
+Task 1: sending signal and wait for all. 3 current and 1 remaining participants, phase 1
+Task 1: waiting completed. 3 current and 3 remaining participants, phase 2
+Task : main task waiting completed. 3 current and 3 remaining participants, phase 2
+Task 1 in loop 2: partition from 0 to 1000000
+Task 2: waiting completed. 3 current and 3 remaining participants, phase 2
+a, count: 76745
+b, count: 76915
+c, count: 77020
+d, count: 76765
+e, count: 77045
+f, count: 76898
+g, count: 76983
+h, count: 77192
+i, count: 76857
+j, count: 77097
+k, count: 77226
+l, count: 76737
+m, count: 76630
+n, count: 76959
+o, count: 76661
+p, count: 77067
+q, count: 77256
+r, count: 76635
+s, count: 76293
+t, count: 76918
+u, count: 77323
+v, count: 77013
+w, count: 76910
+x, count: 76629
+y, count: 76935
+z, count: 77291
+Task : main task finished loop 1, sum: 2000000. 3 current and 3 remaining participants, phase 2
+Task : main task, start signaling and wait. 3 current and 3 remaining participants, phase 2
+Calculation completed from task 1 in loop 2. 38526 times a, 38719 times z
+Task 1: sending signal and wait for all. 3 current and 2 remaining participants, phase 2
+Task 2 in loop 2: partition from 1000000 to 2000000
+Calculation completed from task 2 in loop 2. 38030 times a, 38458 times z
+Task 2: sending signal and wait for all. 3 current and 1 remaining participants, phase 2
+Task 2: waiting completed. 3 current and 3 remaining participants, phase 3
+Task 1: waiting completed. 3 current and 3 remaining participants, phase 3
+Task : main task waiting completed. 3 current and 3 remaining participants, phase 3
+a, count: 76556
+Task 1 in loop 3: partition from 0 to 1000000
+b, count: 77117
+c, count: 77056
+d, count: 76986
+e, count: 77198
+f, count: 77306
+g, count: 76941
+h, count: 76573
+i, count: 77304
+j, count: 76541
+k, count: 76908
+l, count: 76661
+m, count: 76605
+n, count: 77157
+o, count: 76682
+p, count: 76670
+q, count: 77162
+r, count: 77089
+s, count: 77123
+t, count: 76513
+u, count: 76937
+v, count: 76683
+w, count: 77090
+x, count: 77116
+y, count: 76849
+z, count: 77177
+Task : main task finished loop 2, sum: 2000000. 3 current and 3 remaining participants, phase 3
+Task : main task, start signaling and wait. 3 current and 3 remaining participants, phase 3
+Calculation completed from task 1 in loop 3. 38417 times a, 38326 times z
+Task 1: sending signal and wait for all. 3 current and 2 remaining participants, phase 3
+Task 2 in loop 3: partition from 1000000 to 2000000
+Calculation completed from task 2 in loop 3. 38888 times a, 38245 times z
+Task 2: sending signal and wait for all. 3 current and 1 remaining participants, phase 3
+Task 2: waiting completed. 3 current and 3 remaining participants, phase 4
+Task 1: waiting completed. 3 current and 3 remaining participants, phase 4
+Task : main task waiting completed. 3 current and 3 remaining participants, phase 4
+a, count: 77305
+Task 2 in loop 4: partition from 1000000 to 2000000
+Task 1 in loop 4: partition from 0 to 1000000
+b, count: 76677
+c, count: 77207
+d, count: 76720
+e, count: 76930
+f, count: 77415
+g, count: 76765
+h, count: 76638
+i, count: 77020
+j, count: 77025
+k, count: 76491
+l, count: 77246
+m, count: 77157
+n, count: 76850
+o, count: 77182
+p, count: 77155
+q, count: 77001
+r, count: 76541
+s, count: 77074
+t, count: 76612
+u, count: 77071
+v, count: 77027
+w, count: 76728
+x, count: 76940
+y, count: 76652
+z, count: 76571
+Task : main task finished loop 3, sum: 2000000. 3 current and 3 remaining participants, phase 4
+Task : main task, start signaling and wait. 3 current and 3 remaining participants, phase 4
+Calculation completed from task 1 in loop 4. 38547 times a, 38477 times z
+Task 1: sending signal and wait for all. 3 current and 2 remaining participants, phase 4
+Calculation completed from task 2 in loop 4. 38191 times a, 38400 times z
+Task 2: sending signal and wait for all. 3 current and 1 remaining participants, phase 4
+Task 2: waiting completed. 3 current and 3 remaining participants, phase 5
+Task 1: waiting completed. 3 current and 3 remaining participants, phase 5
+Task 1: finished task, removed participant. 1 current and 1 remaining participants, phase 5
+Task 2: finished task, removed participant. 1 current and 1 remaining participants, phase 5
+Task : main task waiting completed. 3 current and 3 remaining participants, phase 5
+a, count: 76738
+b, count: 77719
+c, count: 77071
+d, count: 76714
+e, count: 76888
+f, count: 76773
+g, count: 77014
+h, count: 76638
+i, count: 76488
+j, count: 77168
+k, count: 77191
+l, count: 76817
+m, count: 76932
+n, count: 76824
+o, count: 76900
+p, count: 77125
+q, count: 76959
+r, count: 76652
+s, count: 76779
+t, count: 77330
+u, count: 76864
+v, count: 76648
+w, count: 77312
+x, count: 76792
+y, count: 76787
+z, count: 76877
+Task : main task finished loop 4, sum: 2000000. 1 current and 1 remaining participants, phase 5
+at the end

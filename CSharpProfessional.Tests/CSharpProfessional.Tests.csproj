@@ -63,6 +63,7 @@
     <Compile Include="CSharp5\Part1Test.cs" />
     <Compile Include="CSharp5\Part1_9Tests.cs" />
     <Compile Include="CSharp6\Charpter23\AsyncDelegate.cs" />
+    <Compile Include="CSharp6\Charpter23\BarrierSample.cs" />
     <Compile Include="CSharp6\Charpter23\EventSample.cs" />
     <Compile Include="CSharp6\Charpter23\SemaphoreSample.cs" />
     <Compile Include="CSharp6\Charpter23\MutextTests.cs" />
@@ -78,7 +79,9 @@
       <Name>CSharpProfessional</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="CSharp6\Charpter23\BarrierSampleOutput.txt" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
