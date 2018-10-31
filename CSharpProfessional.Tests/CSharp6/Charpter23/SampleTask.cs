@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Text;
 using static System.Diagnostics.Debug;
 
 namespace CSharpProfessional.Tests.CSharp6.Charpter23
@@ -19,6 +20,21 @@ namespace CSharpProfessional.Tests.CSharp6.Charpter23
         }
     }
 
+    public class StringObject
+    {
+        private string _str = "hello!";
+
+        public void Change(int loop)
+        {
+            if (this._str == "hello!")
+            {
+                this._str = "hallo!!!";
+                Trace.Assert(this._str == "hallo!!!", $"Race condition occurred after {loop} loops");
+            }
+            this._str = "hello!";
+        }
+    }
+
     public class SampleTask
     {
         public SampleTask() { }
@@ -35,6 +51,45 @@ namespace CSharpProfessional.Tests.CSharp6.Charpter23
                 {
                     state.ChangeState(i++);
                 }
+            }
+        }
+        public void RaceConditionStr(object o)
+        {
+            Trace.Assert(o is StringObject, "o must be of type StringObject");
+            var state = o as StringObject;
+
+            int i = 0;
+            while (true)
+            {
+                state.Change(i++);
+            }
+        }
+        public void RaceConditionStr2(string str)
+        {
+            int i = 0;
+            while (true)
+            {
+                if (str == "hello!")
+                {
+                    str = "hallo!!!";
+                    Trace.Assert(str == "hallo!!!", $"Race condition occurred after {i++} loops");
+                }
+                str = "hello!";
+            }
+        }
+        public void RaceConditionStringBuilder(StringBuilder sb)
+        {
+            int i = 0;
+            while (true)
+            {
+                if (sb.ToString() == "hello!")
+                {
+                    sb.Clear();
+                    sb.Append("hallo!!!");
+                    Trace.Assert(sb.ToString() == "hallo!!!", $"Race condition occurred after {i++} loops");
+                }
+                sb.Clear();
+                sb.Append("hello!");
             }
         }
 

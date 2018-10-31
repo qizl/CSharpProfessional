@@ -59,17 +59,20 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="CSharp6\Chapter3\PassingByValueAndReference.cs" />
     <Compile Include="CSharp6\Chapter5\DisposableSample.cs" />
     <Compile Include="CSharp5\Part1Test.cs" />
     <Compile Include="CSharp5\Part1_9Tests.cs" />
     <Compile Include="CSharp6\Charpter23\AsyncDelegate.cs" />
     <Compile Include="CSharp6\Charpter23\BarrierSample.cs" />
     <Compile Include="CSharp6\Charpter23\EventSample.cs" />
+    <Compile Include="CSharp6\Charpter23\ReaderWriterLockSample.cs" />
     <Compile Include="CSharp6\Charpter23\SemaphoreSample.cs" />
     <Compile Include="CSharp6\Charpter23\MutextTests.cs" />
     <Compile Include="CSharp6\Charpter23\SampleTask.cs" />
     <Compile Include="CSharp6\Charpter23\SampleTaskTests.cs" />
     <Compile Include="CSharp6\Charpter23\SynchronizatonSamples.cs" />
+    <Compile Include="CSharp6\Charpter23\TimersSample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CSharp5\ReadBookMarks.cs" />
   </ItemGroup>
