@@ -66,6 +66,9 @@
     <Compile Include="CSharp6\Chapter5\DisposableSample.cs" />
     <Compile Include="CSharp5\Part1Test.cs" />
     <Compile Include="CSharp5\Part1_9Tests.cs" />
+    <Compile Include="CSharp6\Chapter9\AnonymousMethods.cs" />
+    <Compile Include="CSharp6\Chapter9\BubbleSorter.cs" />
+    <Compile Include="CSharp6\Chapter9\SimpleDelegates.cs" />
     <Compile Include="CSharp6\Charpter23\AsyncDelegate.cs" />
     <Compile Include="CSharp6\Charpter23\BarrierSample.cs" />
     <Compile Include="CSharp6\Charpter23\EventSample.cs" />
