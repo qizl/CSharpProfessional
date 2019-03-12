@@ -68,12 +68,12 @@ namespace CSharpProfessional.Tests
             IIndex<Rectangle> rectangles = RectangleCollection.GetRectangles();
             IIndex<Shape> shapes = rectangles;
             for (int i = 0; i < shapes.Count; i++)
-                Console.WriteLine(shapes[i]);
+                Debug.WriteLine(shapes[i]);
 
             // 抗变
             IDisplay<Shape> shapeDisplay = new ShapeDisplay();
             IDisplay<Rectangle> rectangleDisplay = shapeDisplay;
-            string str = rectangleDisplay.Show(rectangles[0]);
+            Debug.WriteLine(rectangleDisplay.Show(rectangles[0]));
         }
 
         [TestMethod]

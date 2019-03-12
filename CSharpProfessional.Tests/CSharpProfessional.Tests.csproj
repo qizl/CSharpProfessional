@@ -83,6 +83,7 @@
     <Compile Include="CSharp6\Charpter23\TimersSample.cs" />
     <Compile Include="CSharp6\CSharp7Grammar.cs" />
     <Compile Include="CSharp7\ParallelTests.cs" />
+    <Compile Include="CSharp8\GenericTests.cs" />
     <Compile Include="CSharp8\PatternsTests.cs" />
     <Compile Include="CSharp8\RandomTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

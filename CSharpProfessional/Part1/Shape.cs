@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace CSharpProfessional.Part1
 {
@@ -10,10 +7,7 @@ namespace CSharpProfessional.Part1
 
     public class ChildDemo : BaseDemo
     {
-        public BaseDemo Get(BaseDemo demo)
-        {
-            return demo;
-        }
+        public BaseDemo Get(BaseDemo demo) => demo;
     }
 
     public class Shape
@@ -21,14 +15,10 @@ namespace CSharpProfessional.Part1
         public double Width { get; set; }
         public double Height { get; set; }
 
-        public override string ToString()
-        {
-            return string.Format("Width: {0}, Height: {1}", Width, Height);
-        }
+        public override string ToString() => $"Width: {Width}, Height: {Height}";
     }
 
-    public class Rectangle : Shape
-    { }
+    public class Rectangle : Shape { }
 
     public interface IIndex<out T>
     {
@@ -40,16 +30,13 @@ namespace CSharpProfessional.Part1
     {
         private Rectangle[] data = new Rectangle[3]
         {
-            new Rectangle { Height=2, Width=5 },
-            new Rectangle { Height=3, Width=7 },
-            new Rectangle { Height=4.5, Width=2.9 }
+        new Rectangle { Height=2, Width=5 },
+        new Rectangle { Height=3, Width=7 },
+        new Rectangle { Height=4.5, Width=2.9 }
         };
 
         private static RectangleCollection coll;
-        public static RectangleCollection GetRectangles()
-        {
-            return coll ?? (coll = new RectangleCollection());
-        }
+        public static RectangleCollection GetRectangles() => coll ?? (coll = new RectangleCollection());
 
         public Rectangle this[int index]
         {
@@ -77,9 +64,6 @@ namespace CSharpProfessional.Part1
 
     public class ShapeDisplay : IDisplay<Shape>
     {
-        public string Show(Shape s)
-        {
-            return s.GetType().Name + "," + s.Width + "," + s.Height;
-        }
+        public string Show(Shape s) => $"{s.GetType().Name},{s.Width},{s.Height}";
     }
 }
