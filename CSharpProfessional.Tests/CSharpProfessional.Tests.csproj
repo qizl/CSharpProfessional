@@ -8,7 +8,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CSharpProfessional.Tests</RootNamespace>
     <AssemblyName>CSharpProfessional.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -84,6 +84,7 @@
     <Compile Include="CSharp6\CSharp7Grammar.cs" />
     <Compile Include="CSharp7\ParallelTests.cs" />
     <Compile Include="CSharp8\PatternsTests.cs" />
+    <Compile Include="CSharp8\RandomTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CSharp5\ReadBookMarks.cs" />
   </ItemGroup>
