@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpProfessional.Tests", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreWinform", "DotNetCoreWinform\DotNetCoreWinform.csproj", "{AC2B4F65-C275-4AC5-8BAF-8AF0CE843476}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpProfessional.Core.Tests", "CSharpProfessional.Core.Tests\CSharpProfessional.Core.Tests.csproj", "{4C6406D1-7B5C-46CD-865B-B4B0E8BE89B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{AC2B4F65-C275-4AC5-8BAF-8AF0CE843476}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC2B4F65-C275-4AC5-8BAF-8AF0CE843476}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC2B4F65-C275-4AC5-8BAF-8AF0CE843476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6406D1-7B5C-46CD-865B-B4B0E8BE89B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6406D1-7B5C-46CD-865B-B4B0E8BE89B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6406D1-7B5C-46CD-865B-B4B0E8BE89B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6406D1-7B5C-46CD-865B-B4B0E8BE89B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
