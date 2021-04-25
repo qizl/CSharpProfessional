@@ -12,7 +12,7 @@ namespace CSharpProfessional.Core.Tests.CSharp8
 
     class DebugLogger : ILogger
     {
-        public void Info(DateTime time, string message) => Debug.WriteLine($"{time.ToString()}  {nameof(message)}:{message}");
+        public void Info(DateTime time, string message) => Debug.WriteLine($"{time}  {nameof(message)}:{message}");
     }
 
     [TestClass]

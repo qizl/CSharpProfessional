@@ -13,6 +13,8 @@ namespace CSharpProfessional
         [STAThread]
         static void Main()
         {
+            new _10Part1.TaskDemo().RunTask();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Part1.Form1());
