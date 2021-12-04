@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28705.295
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpProfessional", "CSharpProfessional\CSharpProfessional.csproj", "{E1B3C1C4-3BF1-4069-B25E-3EE81FBBF3A1}"
 EndProject
@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpProfessional.Tests", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreWinform", "DotNetCoreWinform\DotNetCoreWinform.csproj", "{AC2B4F65-C275-4AC5-8BAF-8AF0CE843476}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpProfessional.Core.Tests", "CSharpProfessional.Core.Tests\CSharpProfessional.Core.Tests.csproj", "{4C6406D1-7B5C-46CD-865B-B4B0E8BE89B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpProfessional.Core.Tests", "CSharpProfessional.Core.Tests\CSharpProfessional.Core.Tests.csproj", "{4C6406D1-7B5C-46CD-865B-B4B0E8BE89B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

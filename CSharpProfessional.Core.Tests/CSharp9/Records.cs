@@ -18,6 +18,13 @@ namespace CSharpProfessional.Core.Tests.CSharp9
             public bool Sex { get; set; }
         }
 
+        public record Student : Person
+        {
+            public int Id { get; init; }
+        }
+
+        public record Person1(string FirstName, string LastName) { }
+
         [TestMethod]
         public void WithExpressions()
         {
@@ -44,6 +51,20 @@ namespace CSharpProfessional.Core.Tests.CSharp9
 
         [TestMethod]
         public void Inheritance()
-        { }
+        {
+            var s = new Student { FirstName = "Mads", Id = 0 };
+
+            Person student = new Student { FirstName = "Mads", LastName = "Nielsen", Id = 129 };
+
+            var otherStudent = student with { LastName = "Torgersen" };
+            var r = otherStudent is Student; // true
+        }
+
+        [TestMethod]
+        public void PositionalRecords()
+        {
+            var p = new Person1("Mads", "Nielsen");
+            var firstName = p.FirstName;
+        }
     }
 }
