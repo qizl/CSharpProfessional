@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="readme" />
+  </Folder>
+  <Project Path="CSharpProfessional.Core.Tests/CSharpProfessional.Core.Tests.csproj" />
+  <Project Path="CSharpProfessional.Tests/CSharpProfessional.Tests.csproj" Id="05807a8d-beae-4083-97dc-1233bae95908" />
+  <Project Path="CSharpProfessional/CSharpProfessional.csproj" Id="e1b3c1c4-3bf1-4069-b25e-3ee81fbbf3a1" />
+</Solution>
